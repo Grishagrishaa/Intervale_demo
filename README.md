@@ -1,5 +1,5 @@
-# Intervale_demo
-Intervale test task application
+# INTERVALE TEST TASK
+Intervale test task application - Library. 
 
 ## Technology stack:
 **`Spring Boot (Web, Data JPA, Validation)`**, **`PostgreSQL`**, **`Liquibase`**, **`ModelMapper`**, **`Swagger`**, **`Docker`**, **`Maven`**. 
