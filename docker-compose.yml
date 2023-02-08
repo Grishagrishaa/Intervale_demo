@@ -34,6 +34,13 @@ services:
     restart: always
     networks:
       - lbrry_ntwrk
+  swagger-ui:
+    build: swagger-ui
+    image: library_swagger-ui:1.0.0
+    ports:
+      - "81:8081"
+    networks:
+      - lbrry_ntwrk
 
 networks:
   lbrry_ntwrk:

@@ -11,7 +11,6 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @EnableJpaAuditing
 @EnableTransactionManagement
 public class LibraryTestApplication {
-
     public static void main(String[] args) {
         SpringApplication.run(LibraryTestApplication.class, args);
     }
