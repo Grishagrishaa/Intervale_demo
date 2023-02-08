@@ -9,18 +9,18 @@ Intervale test task application - Library.
 1. Build project: mvn clean install
 2. To run environment: docker compose up
 
-# Endpoints:
-Author Controller
+## Endpoints:
+**`Author Controller`**
 
-|   HTTP Method   | URL                                                     | Description                       |
-|:---------------:|---------------------------------------------------------|-----------------------------------|
-|      `GET`      | localhost/author/                                       | Get All Entites                   |
-|      `GET`      | localhost/author/{uuid}                                 | Get Entity by UUID                |
-|     `POST`      | localhost/author/                                       | Create new Entity                 |
-|      `PUT`      | localhost/author/{uuid}                                 | Update Entity by UUID             |
-|    `DELETE`     | localhost/author/{uuid}                                 | Delete Entity by UUID             |
+|   HTTP Method   | URL                                                     | Description                          |
+|:---------------:|---------------------------------------------------------|--------------------------------------|
+|      `GET`      | localhost/author/                                       | Get All Entites                      |
+|      `GET`      | localhost/author/{uuid}                                 | Get Entity by UUID                   |
+|     `POST`      | localhost/author/                                       | Create new Entity                    |
+|      `PUT`      | localhost/author/{uuid}                                 | Update Entity by UUID                |
+|    `DELETE`     | localhost/author/{uuid}                                 | Delete Entity by UUID                |
 
-Publisher Controller
+**`Publisher Controller`**
 
 |   HTTP Method   | URL                                                        | Description                       |
 |:---------------:|------------------------------------------------------------|-----------------------------------|
@@ -31,33 +31,33 @@ Publisher Controller
 |    `DELETE`     | localhost/publisher/{uuid}                                 | Delete Entity by UUID             |
 
 
-Book Controller
+**`Book Controller`**
 
-|   HTTP Method   | URL                                                      | Description                       |
-|:---------------:|--------------------------------------------------------- |-----------------------------------|
-|      `GET`      | localhost/books/                                         | Get All Entites                   |
-|      `GET`      | localhost/books/{uuid}                                   | Get Entity by UUID                |
-|      `GET`      | localhost/books/author/{authorName}                      | Get Entity by UUID and Author     |
-|      `GET`      | localhost/books/publisher/{publisherName}                | Get Entity by UUID and Publisher  |
-|      `GET`      | localhost/books/year/{year}                              | Get Entity by UUID and year       |
-|     `POST`      | localhost/books/                                         | Create new Entity                 |
-|      `PUT`      | localhost/books/{uuid}                                   | Update Entity by UUID               |
-|    `DELETE`     | localhost/books/{uuid}                                   | Delete Entity by UUID               |
+|   HTTP Method   | URL                                                      | Description                           |
+|:---------------:|--------------------------------------------------------- |---------------------------------------|
+|      `GET`      | localhost/books/                                         | Get All Entites                       |
+|      `GET`      | localhost/books/{uuid}                                   | Get Entity by UUID                    |
+|      `GET`      | localhost/books/author/{authorName}                      | Get Entity by UUID and Author         |
+|      `GET`      | localhost/books/publisher/{publisherName}                | Get Entity by UUID and Publisher      |
+|      `GET`      | localhost/books/year/{year}                              | Get Entity by UUID and year           |
+|     `POST`      | localhost/books/                                         | Create new Entity                     |
+|      `PUT`      | localhost/books/{uuid}                                   | Update Entity by UUID                 |
+|    `DELETE`     | localhost/books/{uuid}                                   | Delete Entity by UUID                 |
 
-Magazine Controller
+**`Magazine Controller`**
 
-|   HTTP Method   | URL                                                         | Description                       |
-|:---------------:|-------------------------------------------------------------|-----------------------------------|
-|      `GET`      | localhost/magazine/                                         | Get All Entites                   |
-|      `GET`      | localhost/magazine/{uuid}                                   | Get Entity by UUID                |
-|      `GET`      | localhost/magazine/author/{authorName}                      | Get Entity by UUID and Author     |
-|      `GET`      | localhost/magazine/publisher/{publisherName}                | Get Entity by UUID and Publisher  |
-|      `GET`      | localhost/magazine/year/{year}                              | Get Entity by UUID and year       |
-|     `POST`      | localhost/magazine/                                         | Create new Entity                 |
-|      `PUT`      | localhost/magazine/{uuid}                                   | Update Entity by UUID             |
-|    `DELETE`     | localhost/magazine/{uuid}                                   | Delete Entity by UUID             |
+|   HTTP Method   | URL                                                         | Description                        |
+|:---------------:|-------------------------------------------------------------|------------------------------------|
+|      `GET`      | localhost/magazine/                                         | Get All Entites                    |
+|      `GET`      | localhost/magazine/{uuid}                                   | Get Entity by UUID                 |
+|      `GET`      | localhost/magazine/author/{authorName}                      | Get Entity by UUID and Author      |
+|      `GET`      | localhost/magazine/publisher/{publisherName}                | Get Entity by UUID and Publisher   |
+|      `GET`      | localhost/magazine/year/{year}                              | Get Entity by UUID and year        |
+|     `POST`      | localhost/magazine/                                         | Create new Entity                  |
+|      `PUT`      | localhost/magazine/{uuid}                                   | Update Entity by UUID              |
+|    `DELETE`     | localhost/magazine/{uuid}                                   | Delete Entity by UUID              |
 
-Newspaper Controller
+**`Newspaper Controller`**
 
 |   HTTP Method   | URL                                                          | Description                       |
 |:---------------:|--------------------------------------------------------------|-----------------------------------|
