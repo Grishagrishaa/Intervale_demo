@@ -1,16 +1,16 @@
 # INTERVALE TEST TASK
-Intervale test task application - Library. 
+Intervale test task application - `Library`. 
 
 ## Technology stack:
 **`Spring Boot (Web, Data JPA, Validation)`**, **`PostgreSQL`**, **`Liquibase`**, **`ModelMapper`**, **`Swagger`**, **`Docker`**, **`Maven`**. 
 
 
-## How to build
+## How to build:
 1. Build project: mvn clean install
 2. To run environment: docker compose up
 
 ## Endpoints:
-**`Author Controller`**
+`Author Controller`
 
 |   HTTP Method   | URL                                                     | Description                          |
 |:---------------:|---------------------------------------------------------|--------------------------------------|
@@ -20,7 +20,7 @@ Intervale test task application - Library.
 |      `PUT`      | localhost/author/{uuid}                                 | Update Entity by UUID                |
 |    `DELETE`     | localhost/author/{uuid}                                 | Delete Entity by UUID                |
 
-**`Publisher Controller`**
+`Publisher Controller`
 
 |   HTTP Method   | URL                                                        | Description                       |
 |:---------------:|------------------------------------------------------------|-----------------------------------|
@@ -31,7 +31,7 @@ Intervale test task application - Library.
 |    `DELETE`     | localhost/publisher/{uuid}                                 | Delete Entity by UUID             |
 
 
-**`Book Controller`**
+`Book Controller`
 
 |   HTTP Method   | URL                                                      | Description                           |
 |:---------------:|--------------------------------------------------------- |---------------------------------------|
@@ -44,7 +44,7 @@ Intervale test task application - Library.
 |      `PUT`      | localhost/books/{uuid}                                   | Update Entity by UUID                 |
 |    `DELETE`     | localhost/books/{uuid}                                   | Delete Entity by UUID                 |
 
-**`Magazine Controller`**
+`Magazine Controller`
 
 |   HTTP Method   | URL                                                         | Description                        |
 |:---------------:|-------------------------------------------------------------|------------------------------------|
@@ -57,7 +57,7 @@ Intervale test task application - Library.
 |      `PUT`      | localhost/magazine/{uuid}                                   | Update Entity by UUID              |
 |    `DELETE`     | localhost/magazine/{uuid}                                   | Delete Entity by UUID              |
 
-**`Newspaper Controller`**
+`Newspaper Controller`
 
 |   HTTP Method   | URL                                                          | Description                       |
 |:---------------:|--------------------------------------------------------------|-----------------------------------|
@@ -70,7 +70,7 @@ Intervale test task application - Library.
 |      `PUT`      | localhost/newspaper/{uuid}                                   | Update Entity by UUID             |
 |    `DELETE`     | localhost/newspaper/{uuid}                                   | Delete Entity by UUID             |
 
-# People controllers (Author, Publisher) have the same behavior. As example - author controller. 
+## People controllers (`Author`, `Publisher`) have the same behavior. As example - author controller. 
 
 ## Get All Entities
 
@@ -204,7 +204,7 @@ Intervale test task application - Library.
 
 > 200 OK
 
-# Books controllers (Book, Magazine, Newspaper) have the same behavior. As example - book controller. 
+## Books controllers (`Book`, `Magazine`, `Newspaper`) have the same behavior. As example - book controller. 
 
 ## Get All Entities
 
