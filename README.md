@@ -1,6 +1,8 @@
 # INTERVALE TEST TASK
 Intervale test task application - `Library`. 
 
+*More detailed information can be reached here - http://localhost/swagger-ui/#/*
+
 ## Technology stack:
 **`Spring Boot (Web, Data JPA, Validation)`**, **`PostgreSQL`**, **`Liquibase`**, **`ModelMapper`**, **`Swagger`**, **`Docker`**, **`Maven`**. 
 
