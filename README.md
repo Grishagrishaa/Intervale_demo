@@ -1,7 +1,6 @@
 # INTERVALE TEST TASK
 Intervale test task application - `Library`. 
 
-*More detailed information can be reached here - http://localhost/swagger-ui/#/*
 
 ## Technology stack:
 **`Spring Boot (Web, Data JPA, Validation)`**, **`PostgreSQL`**, **`Liquibase`**, **`ModelMapper`**, **`Swagger`**, **`Docker`**, **`Maven`**. 
@@ -10,6 +9,9 @@ Intervale test task application - `Library`.
 ## How to build:
 1. Build project: mvn clean install
 2. To run environment: docker compose up
+
+*More detailed information about project can be reached here - http://localhost/swagger-ui/#/*
+
 
 ## Endpoints:
 `Author Controller`
